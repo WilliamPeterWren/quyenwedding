@@ -132,12 +132,12 @@ if(biicore.bgMusic){
 			audioPlayer.play();
 			document.getElementById("playerVolumeOff").style.display = "none";
 			document.getElementById("playerVolumeOn").style.display = "block";
-			console.log('calling 1', document.getElementById("playerVolumeOn"), document.getElementById("playerVolumeOff"))
+			// console.log('calling 1', document.getElementById("playerVolumeOn"), document.getElementById("playerVolumeOff"))
 		} else {
 			audioPlayer.pause(); 
 			document.getElementById("playerVolumeOff").style.display = "block";
 			document.getElementById("playerVolumeOn").style.display = "none";
-			console.log('calling 2', document.getElementById("playerVolumeOn"), document.getElementById("playerVolumeOff"))
+			// console.log('calling 2', document.getElementById("playerVolumeOn"), document.getElementById("playerVolumeOff"))
 		}
 	}
 
